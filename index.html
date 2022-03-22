@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=  , initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>jogo do velha</title>
+</head>
+<body>
+    <div class="board"> <!--Classe de colunas e linhas-->
+        <div class="cell x" data-cell></div>
+        <div class="cell cicle" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div>
+
+    <div class="mensagem-vencedor" data-cell><!--mensagem de vencedor-->
+        <p>x venceu</p>
+        <button>Reiniciar</button>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
